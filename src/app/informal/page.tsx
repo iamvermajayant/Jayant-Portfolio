@@ -55,9 +55,9 @@ export default function InformalPage() {
     const loadedImages: HTMLImageElement[] = [];
     let loadedCount = 0;
 
-    for (let i = 1; i <= 24; i++) {
+    for (let i = 1; i <= 64; i++) {
       const img = new window.Image();
-      img.src = `/jayant-frames/ezgif-frame-${i.toString().padStart(3, "0")}.png`;
+      img.src = `/bike-frames/ezgif-frame-${i.toString().padStart(3, "0")}.png`;
       img.onload = () => {
         loadedCount++;
         if (i === 1 && canvasRef.current) {
@@ -82,14 +82,14 @@ export default function InformalPage() {
     const render = () => {
       const ctx = canvasRef.current?.getContext("2d");
       if (ctx && canvasRef.current) {
-        const img = images[Math.floor(frame) % 24];
+        const img = images[Math.floor(frame) % images.length];
         if (img && img.complete) {
           canvasRef.current.width = img.width;
           canvasRef.current.height = img.height;
           ctx.drawImage(img, 0, 0);
         }
       }
-      frame += 0.5; // Adjust speed
+      frame += 0.10; // Adjust speed (lower is slower)
       animationId = requestAnimationFrame(render);
     };
 
@@ -267,7 +267,7 @@ export default function InformalPage() {
             <div className="flex flex-col gap-12">
               <div className="text-center">
                 <p className="font-mono text-[10px] uppercase tracking-[0.5em] text-theme-amber/70 font-black mb-4">
-                  @myth_op_gg
+                  @vermaajiikachotabeta
                 </p>
                 <h2 className="font-sans text-3xl md:text-5xl font-bold text-white tracking-tight">
                   Shorts &amp; Reels
