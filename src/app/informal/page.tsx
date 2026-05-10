@@ -12,7 +12,7 @@ const REELS = [
     title: "Cute Cinematics",
     views: "25K Views",
     likes: "1.5K Likes",
-    video: "https://res.cloudinary.com/dh6pwbdn2/video/upload/v1/portfolio/beyondCode/reels/1.mp4",
+    video: "/Reels/reel1.mp4",
     youtube: "https://www.youtube.com/shorts/0_aEyHILpZM",
     instagram: "https://www.instagram.com/reel/DXUQpuuTaZS"
   },
@@ -21,7 +21,7 @@ const REELS = [
     title: "Dream to Reality",
     views: "42K Views",
     likes: "3.2K Likes",
-    video: "https://res.cloudinary.com/dh6pwbdn2/video/upload/v1776804879/portfolio/beyondCode/reels/2.mp4",
+    video: "/Reels/reel2.mp4",
     youtube: "https://www.youtube.com/shorts/om57HcEzXig",
     instagram: "https://www.instagram.com/reel/DV_dpu-ky8l"
   },
@@ -30,7 +30,7 @@ const REELS = [
     title: "KTM Lover",
     views: "2K Views",
     likes: "150 Likes",
-    video: "https://res.cloudinary.com/dh6pwbdn2/video/upload/v1776804917/portfolio/beyondCode/reels/3.mp4",
+    video: "/Reels/reel3.mp4",
     youtube: "https://www.youtube.com/shorts/cDrn1Sui32w",
     instagram: "https://www.instagram.com/reel/DWom4iWzbu8"
   },
@@ -39,7 +39,7 @@ const REELS = [
     title: "City Rides",
     views: "1.9K Views",
     likes: "88 Likes",
-    video: "https://res.cloudinary.com/dh6pwbdn2/video/upload/v1776804952/portfolio/beyondCode/reels/4.mp4",
+    video: "/Reels/reel4.mp4",
     youtube: "https://www.youtube.com/shorts/BCIKPAHxtHY",
     instagram: "https://www.instagram.com/reel/DW6qMytTYFl"
   }
