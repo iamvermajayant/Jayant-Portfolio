@@ -152,11 +152,7 @@ export default function InformalPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="font-mono text-gray-400 text-sm md:text-base max-w-xl mx-auto leading-relaxed"
             >
-              Meet{" "}
-              <span className="text-white font-bold underline decoration-theme-amber/40 underline-offset-4">
-                myth_op_gg
-              </span>
-              . When I&apos;m not pushing production code, I&apos;m rolling the throttle.
+             When I&apos;m not pushing production code, I&apos;m rolling the throttle.
               Discover my journey through vlogs, travel, and adventure.
             </motion.p>
             <motion.div
@@ -243,7 +239,7 @@ export default function InformalPage() {
                 <div className="aspect-[4/5] rounded-[2.5rem] bg-gradient-to-br from-theme-amber/20 to-orange-500/10 border border-white/10 overflow-hidden relative group">
                   <Image
                     alt="Hero"
-                    src="https://res.cloudinary.com/dh6pwbdn2/image/upload/v1776802667/portfolio/beyondCode/hero/hero.jpg"
+                    src="/beyondcode/herobikebanner.jpg"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -252,12 +248,12 @@ export default function InformalPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-10 left-10">
                     <p className="font-mono text-xs uppercase tracking-widest text-white/40 mb-2">Adventure Awaits</p>
-                    <p className="font-sans text-2xl font-bold text-white leading-tight">Rolling the throttle since 2021.</p>
+                    <p className="font-sans text-2xl font-bold text-white leading-tight">Rolling the throttle since 2023.</p>
                   </div>
                 </div>
                 <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full bg-theme-amber border border-amber-400/50 flex flex-col items-center justify-center rotate-12 shadow-[0_0_30px_rgba(245,158,11,0.3)] z-20">
                   <span className="font-mono text-[10px] font-black text-black uppercase tracking-tight">Traveler</span>
-                  <span className="font-sans text-xl font-black text-black">50K+ km</span>
+                  <span className="font-sans text-xl font-black text-black">12K+ km</span>
                   <span className="font-mono text-[8px] font-bold text-black/60 uppercase">Total Ride</span>
                 </div>
               </motion.div>
