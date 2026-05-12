@@ -134,7 +134,7 @@ export default function CommunityPage() {
               transition={{ duration: 0.8 }}
               className="font-mono text-sm tracking-[0.3em] uppercase text-theme-amber/70 mb-8"
             >
-              Community &amp; Speaking
+              Community &amp; Volunteering
             </motion.p>
             <div className="overflow-hidden mb-6">
               <motion.h1

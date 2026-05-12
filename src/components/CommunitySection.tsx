@@ -5,9 +5,9 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const COMMUNITY_EVENTS = [
   {
-    title: "Google Developer Student Clubs Lead",
-    description: "Led the GDSC chapter, fostered a highly active developer community, and organized major technical workshops and events.",
-    img: "https://picsum.photos/800/600?random=1",
+    title: "Nasscom AI 2025",
+    description: "Presented two solutions using the GEN ai related to insurance and Banking sectors.",
+    img: "/Community/Nascoomai.jpg", 
   },
   {
     title: "Speaker at Devfest Durgapur 2024",
@@ -44,7 +44,7 @@ export function CommunitySection() {
         {/* Header Text */}
         <div className="absolute top-12 md:top-24 left-6 md:left-24 z-10 w-full drop-shadow-lg pr-6">
           <h2 className="font-sans text-3xl md:text-5xl font-bold tracking-tight text-white mb-2">
-            Community <span className="bg-gradient-to-r from-theme-amber to-theme-indigo bg-clip-text text-transparent">& Speaking</span>
+            Community <span className="bg-gradient-to-r from-theme-amber to-theme-indigo bg-clip-text text-transparent">& Volunteering</span>
           </h2>
           <p className="font-mono text-gray-400 text-sm md:text-lg max-w-xs md:max-w-md">
             Highlighting the incredible places I've been and ideas I've shared.
