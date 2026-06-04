@@ -346,7 +346,7 @@ export default function InformalPage() {
                 <div className="aspect-square md:aspect-auto lg:col-span-2 lg:row-span-2 rounded-[2.5rem] bg-[#1a1a1f] border border-white/[0.08] overflow-hidden relative group">
                   <Image
                     alt="Gallery 1"
-                    src="https://res.cloudinary.com/dh6pwbdn2/image/upload/v1776803188/portfolio/beyondCode/gallery/1.jpg"
+                    src="/beyondcode/jayantwithpluto.jpg"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
@@ -377,7 +377,7 @@ export default function InformalPage() {
                 <div className="aspect-square md:aspect-auto lg:col-span-1 lg:row-span-1 rounded-[2.5rem] bg-[#1a1a1f] border border-white/[0.08] overflow-hidden relative group">
                   <Image
                     alt="Gallery 3"
-                    src="https://res.cloudinary.com/dh6pwbdn2/image/upload/v1776803194/portfolio/beyondCode/gallery/3.jpg"
+                    src="/beyondcode/jayantcoorg.jpg"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 25vw"
